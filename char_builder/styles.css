@@ -1,0 +1,31 @@
+.left {
+	float: left;
+	width: 400px;
+}
+
+.matrix {
+	background-color: black;
+	width: 325px;
+	height: 325px;
+}
+
+.row {
+	height: 40px;
+}
+
+.led {
+	background-color: #ececec;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin: 5px 0px 0px 5px;
+	border-radius: 50%;
+}
+
+.on {
+	background-color: #ff3535;
+}
+
+.right {
+	float: left;
+}

@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		link(rel='stylesheet', href='styles.css')
+		script(src="script.js")
+	body
+		h1 Character Builder
+		#content
+			.left: .matrix
+				- for (var i=0; i<8; i++)
+					.row(id='row_'+i)
+						- for (var j=0; j<8; j++)
+							.led(id='led'+i+'_'+j onClick='toggleLed('+i+', '+j+')')
+			.right
+				pre#result Click the LEDs to toggle between on and off.
